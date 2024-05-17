@@ -73,3 +73,7 @@
   margin-top: 600px;
 }
 
+.carousel-item {
+  margin: 0 80px; /* Adjust the margin to decrease or increase spacing */
+}
+
