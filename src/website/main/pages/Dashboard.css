@@ -1,0 +1,227 @@
+/*
+Template Name:Cavyalia
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+.body1{
+  
+  color: #1a202c;
+  text-align: left;
+  background-color: #e2e8f0;    
+}
+
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
+  
+     }
+  h1,h2,h3,h4,h5,h6{
+  padding:0;
+  margin:0;
+  }
+  a:hover{
+  text-decoration:none;
+  }
+  ul{
+  padding:0;
+  margin:0;
+  list-style:none;
+  }
+  p{
+  padding:0;
+  margin:0;
+  }
+  .space_left{
+  padding-left:0; 
+  } 
+  .space_right{
+  padding-right:0; 
+  } 
+  .space_all{
+  padding:0; 
+  } 
+  .border_none_1{
+     border:none!important;
+     }
+  .active_tab{
+     color:#c08585!important;
+    }
+  .left_1{
+    display:block;
+   }
+  
+  .aa{
+    text-align: center;
+    justify-content: center;
+    
+  }
+  
+  /*********************dashboard****************/
+  /* #dashboard {
+    background-image: url('../../src/website/main/Images/Images/indian-wedding-background-af1hetugsl7pkndq.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+  } */
+  .dashboard_main{
+     background:#00000091;
+     padding-top: 220px;
+     padding-bottom: 0px;
+     }
+  .dashboard_left_inner h1{
+  font-size:55px;
+  color:#FFFFFF;
+  padding-bottom:20px;
+  }
+  .dashboard_left_inner h5{
+  font-size:20px;
+  color:#999;
+  }
+  
+  
+  /*********************dashboard_end****************/
+  
+    .progress-bar {
+            background-color: orange;
+            width: 47%;
+            animation: pulse 6s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                width: 47%;
+            }
+            25% {
+                width: 47%;
+                background-color:rgb(87, 0, 128)
+            }
+            50% {
+              width: 47%;
+              background-color:green
+          }
+            100% {
+                width: 47%;
+                background-color:aqua
+            }
+        }
+        @media (max-width: 300px) {
+          .progress-bar {
+            width: auto; /* Adjust the width for smaller screens */
+          }
+        }
+   
+ .main-body {
+    padding: 15px;
+}
+.card {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.5);
+} 
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
+}
+
+.gutters-sm {
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.gutters-sm>.col, .gutters-sm>[class*=col-] {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+}
+
+.bg-gray-300 {
+    background-color: #e2e8f0;
+}
+.h-100 {
+    height: 100%!important;
+}
+.shadow-none {
+    box-shadow: none!important;
+}
+.card1{
+width: 100%;  
+position: relative;
+    display: flex;
+    flex-direction: column;
+   
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.card-body1 {
+   
+    min-height: 1px;
+    padding: 3rem;
+    justify-content: space-between;
+   
+}
+
+.card2{
+  width: 100%;  
+  position: relative;
+      display: flex;
+      flex-direction: column;
+     
+      word-wrap: break-word;
+      background-color: #fff;
+      background-clip: border-box;
+      border: 0 solid rgba(0,0,0,.125);
+      border-radius: .25rem;
+      box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.5);
+  }
+  .card-body2 {
+     
+      min-height: 1px;
+      padding: 3rem;
+      justify-content: space-between;
+     
+  }
+
+.scroll-container {
+    width:100%; /* Set the width of the container */
+    height: 200px; /* Set the height of the container */
+    overflow: scroll;
+  }
+  
+  .content {
+    width: 10%; /* Make sure the content is as wide as the container */
+    height: 100%; /* Make sure the content is as tall as the container */
+    overflow:visible;
+    white-space: nowrap; /* To create horizontal scrolling */ 
+   
+  }
+  
+  .large-content {
+    width: 1500px; /* Create a wide content to enable horizontal scrolling */
+  }
+ .card-body3 {
+  min-height: 1px;
+    padding: 3rem;
+    justify-content: space-between;
+    display: flex;
+ }
+  

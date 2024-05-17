@@ -1,0 +1,45 @@
+.hr {
+  background-color: rgb(207, 207, 207);
+  border: none;
+  height: 2px;
+  width: 270px;
+
+
+}
+
+.custom-img-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.about_btn {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s;
+  /* Add a smooth transition effect for the image transformation */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 0, 0, 0.5);
+  /* Adjust the background color and opacity */
+  opacity: 0;
+  /* Initially hidden */
+  transition: opacity 0.3s;
+  /* Add a smooth transition effect for the overlay */
+}
+
+.custom-img-container:hover .about_btn {
+  transform: scale(1.05);
+  /* Increase size on hover (adjust the scale factor as needed) */
+}
+
+.custom-img-container:hover .overlay {
+  opacity: 1;
+  /* Show the overlay on hover */
+}

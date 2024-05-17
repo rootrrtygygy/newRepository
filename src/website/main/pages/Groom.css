@@ -1,0 +1,75 @@
+
+  @media (min-width: 768px) {
+    .contact{
+      width: 500px;
+      height:40px;
+    }
+   
+  }
+  
+/* Default Styles (for all screen sizes) */
+.contact {
+  width: 100%; /* Full width for all screen sizes */
+  height: 30px;
+
+ 
+  margin: 5px auto; /* Center the element horizontally and keep the top margin */
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+  max-width: 50%; /* Ensure a maximum width of 100% for mobile */
+}
+
+
+.contact2 {
+  max-width: 100%; /* Full width for all screen sizes */
+  height: 50px;
+  background-color: #DC3545;
+  margin-top: 10px; /* Keep the top margin for all screen sizes */
+  margin-left: auto;
+  margin-right: auto; /* Center the element horizontally on all screen sizes */
+}
+
+/* Additional Styles for screens with a minimum width of 768px */
+@media (min-width: 768px) {
+  .contact2 {
+    max-width: 800px;
+  }
+}
+
+/* Bride border remove */
+.Card {
+  border: none;
+}
+
+
+ 
+
+  /* Define styles for small screens (up to 768px wide) */
+@media (max-width: 768px) {
+    .custom-img {
+      max-width: 100%; /* Make the image responsive to its container */
+      width: 100%; /* Ensure the image takes up the full width of the container */
+      height: auto; /* Maintain the image's aspect ratio */
+    }
+  }
+ /* Center7.css */
+
+
+  
+  
+  /* Define styles for larger screens (beyond 768px wide) */
+  @media (min-width: 769px) {
+    .custom-img {
+      max-width: 400px; /* Set a specific width for larger screens */
+      max-width: 400px; /* Set a specific width for larger screens */
+      width: 100%; /* Ensure the image takes up the full width of the container */
+      height: auto; /* Maintain the image's aspect ratio */
+    }
+  }
+
+  .center_7_middle_left_inner {
+  border: none;
+};
+#center{
+  margin-top: 600px;
+}
+

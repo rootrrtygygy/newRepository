@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a273db44.css",
+    "main.js": "/static/js/main.3bb8d854.js",
+    "static/js/787.3a5ef91d.chunk.js": "/static/js/787.3a5ef91d.chunk.js",
+    "static/media/Login.png": "/static/media/Login.4e6b483cbc2e7588b683.png",
+    "static/media/Banner 3.jpg": "/static/media/Banner 3.031dc4a73db5b8588926.jpg",
+    "static/media/Banner 2.jpg": "/static/media/Banner 2.6dba2b3d2b16dc8b5ba1.jpg",
+    "static/media/image2.jpg": "/static/media/image2.eac3205d54eebf43e595.jpg",
+    "static/media/wedding-marriage-couple-image-background-free-kd3p croped.jpg": "/static/media/wedding-marriage-couple-image-background-free-kd3p croped.c5f8c3b2753f47b68acc.jpg",
+    "static/media/img5.jpg": "/static/media/img5.6c5b2deb9eb3eae159ca.jpg",
+    "static/media/bride.webp": "/static/media/bride.a4ab09eeac4d0f2f842c.webp",
+    "static/media/banner.jpg": "/static/media/banner.9749b85520825c6b455a.jpg",
+    "static/media/indian-wedding-background-af1hetugsl7pkndq.jpg": "/static/media/indian-wedding-background-af1hetugsl7pkndq.4e616d386d38b62804bf.jpg",
+    "static/media/about.jpg": "/static/media/about.63f4d1e65e1395dfe1d6.jpg",
+    "static/media/Banner 1.jpg": "/static/media/Banner 1.c66fc8e8048dc1ecea64.jpg",
+    "static/media/coin-removebg-preview.png": "/static/media/coin-removebg-preview.9112ff2551b94113a068.png",
+    "static/media/Logo.jpg": "/static/media/Logo.a5ba44183a7006746aa8.jpg",
+    "static/media/img3.jpeg": "/static/media/img3.63892a30eb07369297f1.jpeg",
+    "static/media/about2.png": "/static/media/about2.1ae7c7e71b95491aff33.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.a273db44.css.map": "/static/css/main.a273db44.css.map",
+    "main.3bb8d854.js.map": "/static/js/main.3bb8d854.js.map",
+    "787.3a5ef91d.chunk.js.map": "/static/js/787.3a5ef91d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a273db44.css",
+    "static/js/main.3bb8d854.js"
+  ]
+}

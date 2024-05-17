@@ -1,0 +1,167 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Contactde.css */
+
+/* Contactde.css */
+
+.contact-container-custom {
+  
+    max-width: 1000px; /* Increase the width as needed */
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow:    3px 0px 14px rgba(0, 0, 0, 0.1),  /* Right */
+    -3px 0px 14px rgba(0, 0, 0, 0.1), /* Left */
+    0px 3px 14px rgba(0, 0, 0, 0.1),  /* Bottom */
+    0px -3px 14px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px;
+    text-align: center;
+    height: 100%;
+}
+.contact-container-custom2 {
+  
+    max-width: 1000px; /* Increase the width as needed */
+    margin: 0 auto;
+    padding: 10px;
+    
+     /* Right */
+
+    border-radius: 5px;
+    text-align: center;
+    height: 100%;
+}
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    text-align: left;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.input-field i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.input-field input,
+.input-field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.bounced {
+    background-color: #D72323;
+    color: #fff;
+    padding: 10px 20px;
+    
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.bounced:hover {
+    background-color: orangered;
+    
+}
+
+.contacth1 {
+    font-weight: bold;
+    background: linear-gradient(to right, red, orange);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+
+  /* Hover effect */
+  
+  hr {
+    background-image: linear-gradient(to right, red, orange);
+   
+  /* Optional: You can change the color as needed */
+  }
+
+  .link {
+    color: white;
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+  }
+  
+  .link:hover {
+    color:black; /* Change to the desired color on hover */
+  }
+  .outer-div {
+    background: linear-gradient(45deg, red, orange);
+ 
+    padding: 20px; 
+  }
+  .data{
+    font-weight: bolder;
+    font-size: 20px;
+    padding-bottom: 7px;
+    color: white;
+    
+  }
+  
+  
+  .bounce-on-hover:hover {
+    animation: bounce 0.5s ease infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-15px); /* Adjust the bounce height as needed */
+    }
+    60% {
+      transform: translateY(-7px); /* Adjust the bounce height as needed */
+    }
+  }
+  .bounced {
+    /* Your existing styles for the div */
+    animation: bounce 2s ease infinite; /* Adjust the duration as needed */
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-15px); /* Adjust the bounce height as needed */
+    }
+    60% {
+      transform: translateY(-7px); /* Adjust the bounce height as needed */
+    }
+  }
+  

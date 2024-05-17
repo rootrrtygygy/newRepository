@@ -1,0 +1,57 @@
+/* Modal container */
+.modal {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    margin-top: 10PX;
+    
+  }
+  
+  /* Modal content */
+  .modal-content {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+  }
+  
+  /* Close button */
+  .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+    background-color: red; 
+  }
+  
+  .red-background  {
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: red; 
+    border: white;
+    border-radius: 100px; 
+    color: white;
+    /* text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer; */
+  }
+  
+  /* Hover effect */
+  /* .button:hover {
+    background-color: darkred; 
+  } */
+  
