@@ -39,7 +39,7 @@ function App() {
           <Route path="/search" element={<Master Rcf={Search} />} />
           <Route path="/membership" element={<Master Rcf={MemberShip} />} />
           <Route path="/contact-us" element={<Master Rcf={Contact} />} />
-          <Route path="/groomlist" element={<Master Rcf={GroomList} />} />
+          <Route path="/groomlist" element={<Master Rcf={GroomList} />} />  
           <Route path="/brideview" element={<Master Rcf={Brideview} />} />
           <Route path="/bridecast" element={<Master Rcf={BrideCast} />} />
           <Route path="/buymember" element={<Master Rcf={Membersow} />} />

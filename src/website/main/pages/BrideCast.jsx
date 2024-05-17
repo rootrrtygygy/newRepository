@@ -7,6 +7,7 @@ const BrideCast = () => {
     backgroundSize: '100% 100%', // Make the background image cover the container
     backgroundRepeat: 'no-repeat',
     width: '100% auto',
+
     height: '500px',
     marginTop:"100px"  // Set the desired height (adjust as needed)
   };
